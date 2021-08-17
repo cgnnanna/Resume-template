@@ -1,0 +1,120 @@
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .personality-summary{
+        font-size: 14px;
+    }
+    .competencies-list{
+        display: block;
+    }
+    .competencies-list > li{
+        width: 100%;
+    }
+    .job-title-block{
+        display: block;
+    }
+    .education-description-block{
+        display: block;
+    }
+    .education-display-block{
+        display: flex;
+        align-items: center;
+    }
+    .education-display-block > img{
+        height: 40px;
+    }
+    .tech-stack-list > li{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .personality-summary{
+        font-size: 18px;
+    }
+    .competencies-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .competencies-list > li{
+        width: 50%;
+    }
+    .job-title-block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .job-title-text, .job-duration-text{
+        font-size: 16px;
+    }
+    
+    .education-description-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .education-display-block{
+        display: flex;
+        align-items: center;
+    }
+    .tech-stack-list > li{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .personality-summary{
+        font-size: 18px;
+    }
+    .competencies-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .competencies-list > li{
+        width: 33.33%;
+    }
+    .job-title-block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .job-title-text, .job-duration-text{
+        font-size: 16px;
+    }
+    
+    .education-description-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .education-display-block{
+        display: flex;
+        align-items: center;
+    }
+    .tech-stack-list > li{
+        font-size: 16px;
+    }
+}
